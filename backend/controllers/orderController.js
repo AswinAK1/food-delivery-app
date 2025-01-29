@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 // placing user order from frontend
 const placeOrder = async(req,res) =>{
 
-  const frontend_url = "https://food-delivery-app-xb5k.onrender.com"
+  const frontend_url = "https://food-delivery-app-weld-nu.vercel.app"
 
   try {
     const newOrder = new orderModel({
