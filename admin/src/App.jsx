@@ -1,7 +1,7 @@
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Sidebar from './components/Sidebar/Sidebar'
-import {Route, Routes} from 'react-router-dom'
 import Add from './pages/Add/Add.jsx'
 import List from './pages/List/List.jsx'
 import Order from './pages/Orders/Order.jsx'
@@ -9,7 +9,7 @@ import Order from './pages/Orders/Order.jsx'
 
 function App() {
 
-  const url = "http://localhost:4000"
+  const url = "https://food-delivery-app-xb5k.onrender.com"
 
   return (
     <>
